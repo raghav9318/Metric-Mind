@@ -1,0 +1,12 @@
+import pandas as pd
+df = pd.read_csv("data/Sales.csv")
+print("====SHAPE====")
+print(df.shape)
+print("====FIRST 5 ROWS====")
+print(df.head())
+print("====LAST 5 ROWS====")
+print(df.tail())
+print("====DATA INFORMATION====")
+print(df.info())
+print("====DATA TYPES====")
+print(df.dtypes())
